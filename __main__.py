@@ -4,6 +4,7 @@ class getAudio:
     def __init__(self):
         self.r = sr.Recognizer()
         self.audio = None
+        self.text = ""
 
     def recordMicorophone(self):
         with sr.Microphone() as source:
@@ -14,13 +15,19 @@ class getAudio:
             f.write(self.audio.get_wav_data())
 
     def voiceToText(self):
-        with sr.AudioFile("speech.wav") as source:
-            self.audio = self.r.record(source)
-            print(self.r.recognize_sphinx(self.audio))
+        try:
+            with sr.WavFile("speech.wav") as source:
+                self.audio = self.r.record(source)
+                self.text = self.r.recognize_google(self.audio, language="en-US")
+        except sr.UnknownValueError:
+	        print("Google Speech Recognition could not understand audio")
+        except sr.RequestError as e:
+	        print("Could not request results from Google Speech Recognition service; {0}".format(e))
+        
+        print(self.text)
 
 if __name__ == "__main__":
     obj = getAudio()
     obj.recordMicorophone()
     obj.createAudioFile()
     obj.voiceToText()
-
