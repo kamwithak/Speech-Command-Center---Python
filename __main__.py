@@ -1,4 +1,5 @@
 import speech_recognition as sr
+from programLauncher import programLauncher
 
 class getAudio:
     def __init__(self):
@@ -24,10 +25,11 @@ class getAudio:
         except sr.RequestError as e:
 	        print("Could not request results from Google Speech Recognition service; {0}".format(e))
         
-        print(self.text)
+        return self.text.lower()
 
 if __name__ == "__main__":
     obj = getAudio()
     obj.recordMicorophone()
     obj.createAudioFile()
-    obj.voiceToText()
+    print(obj.voiceToText())
+    #programLauncher(obj.voiceToText())
