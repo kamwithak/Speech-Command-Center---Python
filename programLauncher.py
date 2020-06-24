@@ -4,19 +4,25 @@ class programLauncher:
     def __init__(self, text):
         self.text = text
         self.actionLabels = ["launch", "start", "open", "begin", "kick off", "commence", "turn on", "give me", "instantiate", "initialize"]
-        self.programLables = self.getLocallyInstalledProgramNames()
+        self.programDict = self.getInstalledPrograms()
+
+        print(self.programDict)
         # ~
         #self.launch(self.text)
 
-    def getLocallyInstalledProgramNames(self):
-        return [i.name for i in self.findAllLocalPrograms()]
-        
-    def findAllLocalPrograms(self):
-        return [app for app in winapps.list_installed()]
+    '''
+    @args: None
+    @return: dictionary where keys are the program names and values are the program locations
+    '''
+    def getInstalledPrograms(self):
+        programDict = {}
+        for localProgram in winapps.list_installed():
+            programDict[localProgram.name] = localProgram.install_location
+        return programDict
 
     def launch(self, text):
         for action in self.actionLabels:
-            for program in self.programLables:
+            for program in self.programDict.keys():
                 if (action in text and program in text):
                     os.startfile(r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe")
                     return 
