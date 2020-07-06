@@ -8,7 +8,7 @@ class programLauncher:
 
         print(self.programDict)
         # ~
-        #self.launch(self.text)
+        self.launch(self.text)
 
     '''
     @args: None
@@ -26,9 +26,9 @@ class programLauncher:
     '''
     def launch(self, text):
         for action in self.actionLabels:
-            for program in self.programDict.keys():
+            for program in self.programDict:
                 if (action in text and program in text):
-                    #os.startfile(r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe")
+                    os.startfile(r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe")
                     return 
 
 i = programLauncher("launch chrome")
