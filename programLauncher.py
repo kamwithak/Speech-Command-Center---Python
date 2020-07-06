@@ -19,12 +19,16 @@ class programLauncher:
         for localProgram in winapps.list_installed():
             programDict[localProgram.name] = localProgram.install_location
         return programDict
-
+    
+    '''
+    @args: str
+    @return: binary decision regarding successful launch of specified program
+    '''
     def launch(self, text):
         for action in self.actionLabels:
             for program in self.programDict.keys():
                 if (action in text and program in text):
-                    os.startfile(r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe")
+                    #os.startfile(r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe")
                     return 
 
 i = programLauncher("launch chrome")
