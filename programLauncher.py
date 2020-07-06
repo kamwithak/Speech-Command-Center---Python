@@ -1,5 +1,4 @@
 import os, winapps
-import os
 
 class programLauncher:
     def __init__(self, text):
