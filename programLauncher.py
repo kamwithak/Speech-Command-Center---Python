@@ -42,7 +42,6 @@ class programLauncher:
     '''
     def launch(self, programLocation, programName):
         #os.startfile()
-        print(programName)
         print(programLocation)
         pass
 
