@@ -1,4 +1,6 @@
-import os, winapps
+import os
+import winapps
+import glob
 
 class programLauncher:
     def __init__(self, text):
@@ -37,13 +39,15 @@ class programLauncher:
     
     '''
     @args: str, str
-    @description: execution of .exe in programLocation directory
+    @description: execution of .exe in programDirectory
     @return: binary decision pertaining to the succesfull launch of programName
     '''
-    def launch(self, programLocation, programName):
-        #os.startfile()
-        print(programLocation)
-        pass
+    def launch(self, programDirectory, programName):
+        programDirectory = str(programDirectory) + "/*.exe"
+        executablePaths = []
+        for executablePath in glob.iglob(programDirectory, recursive=True):
+            executablePaths.append(executablePath)
+        return None
 
     '''
     @args: str
@@ -58,4 +62,4 @@ class programLauncher:
                         self.launch(self.programDict[bucket][0], self.programDict[bucket][1])
                         return 
 
-i = programLauncher("launch sublime")
+i = programLauncher("open winrar")
