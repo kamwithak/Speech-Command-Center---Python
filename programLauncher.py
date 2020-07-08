@@ -17,10 +17,13 @@ class programLauncher:
             "instantiate",
             "initialize"
         ]
+
+        # ~~~~~~~~~~~~~~~~~~~~~
         self.programDict = self.getLocalProgramData()
+        for program in self.programDict:
+            print(str(program) + "     -     " + str(self.programDict[program][0]))
         # ~~~~~~~~~~~~~~~~~~~~~
-        #print(self.programDict)
-        # ~~~~~~~~~~~~~~~~~~~~~
+        
         self.start(self.text)
 
     '''
@@ -43,11 +46,19 @@ class programLauncher:
     @return: binary decision pertaining to the succesfull launch of programName
     '''
     def launch(self, programDirectory, programName):
-        programDirectory = str(programDirectory) + "/*.exe"
         executablePaths = []
-        for executablePath in glob.iglob(programDirectory, recursive=True):
-            executablePaths.append(executablePath)
-        return None
+        for executablePath in glob.iglob(str(programDirectory) + "\*.exe", recursive=True):
+            executablePaths.append(str(executablePath))
+        if not executablePaths: print("nothing found")
+        for i in range(len(executablePaths)):
+            print(str(i+1) + ") " + str(executablePaths[i]))
+        # ~~~~~~~~~~~~~
+        # ~~~~~~~~~~~~~
+        j = int(input("Which to launch? "))
+        if (j > 0 and j <= len(executablePaths)):
+            os.startfile(executablePaths[j-1])
+            return True
+        return False
 
     '''
     @args: str
@@ -62,4 +73,4 @@ class programLauncher:
                         self.launch(self.programDict[bucket][0], self.programDict[bucket][1])
                         return 
 
-i = programLauncher("open winrar")
+i = programLauncher("start Google ChrOme")
