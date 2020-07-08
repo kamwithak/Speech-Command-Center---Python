@@ -72,5 +72,4 @@ class programLauncher:
                     if (action in text and ball in text):
                         self.launch(self.programDict[bucket][0], self.programDict[bucket][1])
                         return 
-
-i = programLauncher("start Google ChrOme")
+                        
