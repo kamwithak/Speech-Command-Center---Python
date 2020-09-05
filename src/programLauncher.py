@@ -18,13 +18,14 @@ class programLauncher:
             "initialize"
         ]
 
-        # ~~~~~~~~~~~~~~~~~~~~~
         self.programDict = self.getLocalProgramData()
-        for program in self.programDict:
-            print(str(program) + "     -     " + str(self.programDict[program][0]))
+        
+        # ~~~~~~~~~~~~~~~~~~~~~
+        # for program in self.programDict:
+        #     print(str(program) + "     -     " + str(self.programDict[program][0]))
         # ~~~~~~~~~~~~~~~~~~~~~
         
-        self.start(self.text)
+        self.startEngine(self.text)
 
     '''
     @args: None
@@ -45,17 +46,19 @@ class programLauncher:
     @description: execution of .exe in programDirectory
     @return: binary decision pertaining to the succesfull launch of programName
     '''
-    def launch(self, programDirectory, programName):
+    def launch(self, programLocation, programName):
         executablePaths = []
-        for executablePath in glob.iglob(str(programDirectory) + "\*.exe", recursive=True):
+        for executablePath in glob.iglob(str(programLocation) + "\*.exe", recursive=True):
             executablePaths.append(str(executablePath))
-        if not executablePaths: print("nothing found")
+        # ~~~~~~~~~~~~~
+        if not executablePaths:
+            print(f'Installations missing - executablePaths: {executablePaths}')
         for i in range(len(executablePaths)):
             print(str(i+1) + ") " + str(executablePaths[i]))
         # ~~~~~~~~~~~~~
-        # ~~~~~~~~~~~~~
         j = int(input("Which to launch? "))
         if (j > 0 and j <= len(executablePaths)):
+            print(f'Launching {executablePaths[j-1]}')
             os.startfile(executablePaths[j-1])
             return True
         return False
@@ -65,11 +68,10 @@ class programLauncher:
     @description: acceptance criteria for successful launch 
     @return: None
     '''
-    def start(self, text):
+    def startEngine(self, text):
         for action in self.actionLabels:
             for bucket in self.programDict:
                 for ball in self.programDict[bucket][1]:
                     if (action in text and ball in text):
                         self.launch(self.programDict[bucket][0], self.programDict[bucket][1])
                         return 
-                        
