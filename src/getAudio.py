@@ -7,6 +7,7 @@ class getAudio:
         self.text = ""
 
     def recordMicorophone(self):
+        print("Accepting input...")
         with sr.Microphone() as source:
             self.audio = self.r.listen(source)
         
@@ -19,6 +20,7 @@ class getAudio:
             with sr.WavFile("speech.wav") as source:
                 self.audio = self.r.record(source)
                 self.text = str(self.r.recognize_google(self.audio, language="en-US"))
+                if (self.text): print(self.text)
         except sr.UnknownValueError:
 	        print("Google Speech Recognition could not understand audio")
         except sr.RequestError as e:
