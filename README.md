@@ -30,9 +30,9 @@
   <h3 align="center">Intelligent Virtual Assistance</h3>
 
   <p align="center">
-    Welcome to the README.md file!
+    Welcome to the Docs!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the Docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
