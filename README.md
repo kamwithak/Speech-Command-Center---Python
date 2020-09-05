@@ -27,10 +27,10 @@
 <br />
 <p align="center">
 
-  <h3 align="center">Welcome to the README.md file! </h3>
+  <h3 align="center">Intelligent Virtual Assistance</h3>
 
   <p align="center">
-    Intelligent Virtual Assistance
+    Welcome to the README.md file!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
