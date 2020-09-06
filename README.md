@@ -86,6 +86,8 @@ UNFINISHED!
 
 Please install pip, it will be useful for you!
 
+https://pypi.org/project/pip/
+
 All we shall need for this automation tool are two modules:
 * SpeechRecogniton
 * WinApps
