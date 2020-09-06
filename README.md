@@ -27,7 +27,7 @@
 <br />
 <p align="center">
 
-  <h3 align="center">Intelligent Virtual Assistance</h3>
+  <h3 align="center">Jarvis - Intelligent Virtual Assistance</h3>
 
   <p align="center">
     Welcome to the Docs!
@@ -35,8 +35,6 @@
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the Docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
@@ -65,7 +63,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Jarvis - Intelligent Virtual Assistance][product-screenshot]](https://i.imgur.com/EP1DHUC.gif)
 
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
 
