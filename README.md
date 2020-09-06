@@ -113,7 +113,7 @@ pip install SpeechRecogniton winapps
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-It is simple,
+Execution begins *__main__.py*, thus,
 ```py
 python __main__.py
 ```
