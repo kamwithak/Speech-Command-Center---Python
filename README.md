@@ -146,7 +146,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Python community! <3](https://pypi.org/)
+* [Python community! :stuck_out_tongue_winking_eye:](https://pypi.org/)
 
 
 
