@@ -70,10 +70,10 @@ Remember Iron Man?
 Let's build a beautiful virtual assistant for Windows 10!
 
 ### Built With
-We will be using speech recognition services from google and doing some plug-and-play with Python3
-* [Google Speech Recognition Service](https://getbootstrap.com)
-* [Glob](https://jquery.com)
-* [WinApps](https://laravel.com)
+We will be using speech recognition services from Google and doing some plug-and-play with Python3
+* [Google Speech Recognition Service](https://cloud.google.com/speech-to-text/?utm_source=google&utm_medium=cpc&utm_campaign=na-CA-all-en-dr-bkws-all-all-trial-p-dr-1009135&utm_content=text-ad-none-any-DEV_c-CRE_291249389500-ADGP_Hybrid+%7C+AW+SEM+%7C+BKWS+%7C+CA+%7C+en+%7C+PHR+~+ML/AI+~+Speech+API+~+Google%27S+Voice+Recognition-KWID_43700036550340905-kwd-477690333781&utm_term=KW_google%27s%20voice%20recognition-ST_Google%27S+Voice+Recognition&gclid=Cj0KCQjw7sz6BRDYARIsAPHzrNLuOosQW5KTGNAyYyxwwjqGE875CYyrMo_Tpr9NJAl7Lk-uTyNTUuoaAouoEALw_wcB)
+* [Glob](https://docs.python.org/3/library/glob.html)
+* [WinApps](https://pypi.org/project/winapps/)
 
 
 
