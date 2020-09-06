@@ -63,14 +63,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Remember Iron Man? Let's build a beautiful virtual assistant for Windows 10:
+Remember Iron Man?
 [![Jarvis - Intelligent Virtual Assistance][product-screenshot]](https://i.imgur.com/EP1DHUC.gif)
 
+ Let's build a beautiful virtual assistant for Windows 10!
+
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [Google Speech Recognition Service](https://getbootstrap.com)
+* [Glob](https://jquery.com)
+* [WinApps](https://laravel.com)
 
 
 
