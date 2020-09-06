@@ -89,6 +89,7 @@ https://pypi.org/project/pip/
 All we shall need for this automation tool are two modules:
 * SpeechRecogniton
 * WinApps
+* Tkinter/Qt *(In Development)*
 
 We shall install using pip:
 ```sh
