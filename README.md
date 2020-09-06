@@ -30,9 +30,9 @@
   <h3 align="center">Jarvis - Intelligent Virtual Assistance</h3>
 
   <p align="center">
-    Welcome to the Docs!
+    💘
     <br />
-    <a href="https://github.com/kamwithak/Speech-Command-Center---Python"><strong>Explore the Docs »</strong></a>
+    <a href="https://github.com/kamwithak/Speech-Command-Center---Python"><strong>Welcome to the Docs!</strong></a>
     <br />
     <br />
     <a href="https://github.com/kamwithak/Speech-Command-Center---Python/issues">Report Bug</a>
