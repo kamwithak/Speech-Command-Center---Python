@@ -63,7 +63,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Jarvis - Intelligent Virtual Assistance][product-screenshot]](https://i.imgur.com/EP1DHUC.gif)
+[![Jarvis - Intelligent Virtual Assistance][https://i.imgur.com/EP1DHUC.gif]](https://i.imgur.com/EP1DHUC.gif)
 
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
 
