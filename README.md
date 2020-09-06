@@ -64,16 +64,14 @@
 ## About The Project
 
 Remember Iron Man?
-[![Jarvis - Intelligent Virtual Assistance][product-screenshot]](https://i.imgur.com/EP1DHUC.gif)
+![Jarvis - Intelligent Virtual Assistance][product-screenshot]](https://i.imgur.com/EP1DHUC.gif)
 
- Let's build a beautiful virtual assistant for Windows 10!
+Let's build a beautiful virtual assistant for Windows 10!
 
 ### Built With
 * [Google Speech Recognition Service](https://getbootstrap.com)
 * [Glob](https://jquery.com)
 * [WinApps](https://laravel.com)
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
