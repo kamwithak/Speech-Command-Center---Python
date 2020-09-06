@@ -90,7 +90,7 @@ All we shall need for this automation tool are two modules:
 * SpeechRecogniton
 * WinApps
 
-We can simply install using pip:
+We shall install using pip:
 ```sh
 pip install SpeechRecogniton winapps
 ```
