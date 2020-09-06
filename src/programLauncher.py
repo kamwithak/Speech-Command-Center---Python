@@ -38,7 +38,7 @@ class programLauncher:
             programDict[localProgram.name] = [
                 localProgram.install_location,              # 0th index
                 localProgram.name.lower().split()           # 1st index
-                ]
+            ]
         return programDict
     
     '''
