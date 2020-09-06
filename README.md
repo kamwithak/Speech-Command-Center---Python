@@ -27,7 +27,7 @@
 <br />
 <p align="center">
 
-  <h3 align="center">Jarvis - Intelligent Virtual Assistance</h3>
+  <h3 align="center">Jarvis - Intelligent Voice Assistance</h3>
 
   <p align="center">
     💜🌍
@@ -65,7 +65,7 @@
 
 Remember Iron Man? 😈
 
-[![Jarvis - Intelligent Virtual Assistance][product-screenshot]](https://i.imgur.com/EP1DHUC.gif)
+[![Jarvis - Intelligent Voice Assistance][product-screenshot]](https://i.imgur.com/EP1DHUC.gif)
 
 Let's build a beautiful virtual assistant for Windows 10!
 
