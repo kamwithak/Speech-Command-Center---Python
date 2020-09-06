@@ -32,12 +32,12 @@
   <p align="center">
     Welcome to the Docs!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the Docs »</strong></a>
+    <a href="https://github.com/kamwithak/Speech-Command-Center---Python"><strong>Explore the Docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/kamwithak/Speech-Command-Center---Python/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/kamwithak/Speech-Command-Center---Python/issues">Request Feature</a>
   </p>
 </p>
 
