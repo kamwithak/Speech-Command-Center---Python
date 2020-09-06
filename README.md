@@ -93,27 +93,21 @@ Ofcourse, we can install using pip:
 pip install SpeechRecogniton winapps
 ```
 
-We shall introduce a requirements/packages file later into the product:
+We shall introduce a requirements/packages in the future:
 ```sh
 pip install -r requirements.txt
 ```
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. No API or external dependencies needed beyond this repo
+2. Simply, clone the repo using git
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/kamwithak/Speech-Command-Center---Python
 ```
-3. Install NPM packages
+3. Install needed Third-party python modules
 ```sh
-npm install
+pip install SpeechRecogniton winapps
 ```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
