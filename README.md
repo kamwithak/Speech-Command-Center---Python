@@ -80,7 +80,7 @@ We will be using speech recognition services from Google and doing some plug-and
 <!-- GETTING STARTED -->
 ## Getting Started
 
-UNFINISHED
+UNFINISHED!
 
 ### Prerequisites
 
