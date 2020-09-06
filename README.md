@@ -121,7 +121,7 @@ python __main__.py
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/kamwithak/Speech-Command-Center---Python/issues) for a list of proposed features (and known issues).
 
 
 
