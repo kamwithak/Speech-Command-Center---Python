@@ -84,12 +84,19 @@ UNFINISHED!
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+All we shall need for this automation tool are two modules:
+* SpeechRecogniton
+* WinApps
+
+Ofcourse, we can install using pip:
 ```sh
-npm install npm@latest -g
+pip install SpeechRecogniton winapps
 ```
 
+We shall introduce a requirements/packages file later into the product:
+```sh
+pip install -r requirements.txt
+```
 ### Installation
 
 1. Get a free API Key at [https://example.com](https://example.com)
