@@ -4,7 +4,7 @@ class getAudio:
     def __init__(self):
         self.r = sr.Recognizer()
         self.audio = None
-        self.text = ""
+        self.text = ''
 
     def recordMicorophone(self):
         print("Accepting input...")
@@ -12,12 +12,12 @@ class getAudio:
             self.audio = self.r.listen(source)
         
     def createAudioFile(self):
-        with open("speech.wav", "wb") as f:
+        with open("data/speech.wav", "wb") as f:
             f.write(self.audio.get_wav_data())
 
     def voiceToText(self):
         try:
-            with sr.WavFile("speech.wav") as source:
+            with sr.WavFile("data/speech.wav") as source:
                 self.audio = self.r.record(source)
                 self.text = str(self.r.recognize_google(self.audio, language="en-US"))
                 if (self.text): print(self.text)
