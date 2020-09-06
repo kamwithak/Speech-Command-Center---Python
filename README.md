@@ -115,6 +115,7 @@ pip install SpeechRecogniton winapps
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+It is simple,
 ```py
 python __main__.py
 ```
